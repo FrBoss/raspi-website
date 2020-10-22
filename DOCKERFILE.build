@@ -1,4 +1,0 @@
-FROM node:12.19.0-alpine3.12
-COPY . wrk
-CMD cd wrk; npm install; npm run-script build;
-VOLUME /wrk/build
